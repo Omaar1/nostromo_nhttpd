@@ -1,6 +1,4 @@
 #!/bin/bash
-
-
 # Start the nhttpd process
 /usr/local/sbin/nhttpd
 status=$?
