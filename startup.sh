@@ -1,6 +1,6 @@
 #!/bin/bash
 # Start the nhttpd process
-/usr/local/sbin/nhttpd
+nhttpd&
 status=$?
 if [ $status -ne 0 ]; then
   echo "Failed to start nhttpd: $status"
